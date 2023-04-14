@@ -5,15 +5,12 @@
     <title>King Shop</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    {% load static %}
 
 
-    <style>
-        .jumbotron{
-            padding:20px;
-            margin-bottom: 20px;
-            background-color: #e9ecef;
-        }
-    </style>
+    {% block extra_header %}
+        <link rel="stylesheet" href="{% static 'css/base_style.css' %}">
+    {% endblock %}
 
 </head>
 <body>

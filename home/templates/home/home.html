@@ -1,4 +1,21 @@
 {% extends 'base.html' %}
+
+{% load static %}
+
+{% block extra_header %}
+    <link rel="stylesheet" href="{% static 'home/css/style_of_asal.css' %}">
+
+{% endblock %}
+
+
 {%  block content %}
-    <h>hellp</h>
+    {% for product in products %}
+        <div class="card" style="width:18rem;" >
+            <img src="{{ product.image.url }}" alt="" class="card-iny-top" width="200">
+            <div class="card_body">
+                <a href="{{ product.get_absolute_url }}" class="card-title">{{ product.name }}</a>
+            </div>
+
+        </div>
+    {% endfor %}
 {% endblock %}

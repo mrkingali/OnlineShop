@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home.apps.HomeConfig',
     'accounts.apps.AccountsConfig',
-    #'storages'
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -129,3 +129,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'accounts.User'
 
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_ACCESS_KEY_ID = '7af99838-8a35-4bf0-8ed7-ad93a212e6e3'
+AWS_SECRET_ACCESS_KEY = '670bb18b56df5a096cf6e3d42b36cce291efedfe'
+AWS_S3_ENDPOINT_URL = 'https://s3.ir-thr-at1.arvanstorage.com/'
+AWS_STORAGE_BUCKET_NAME = 'django-online-shop-project'
+AWS_STORAGE_NAME = 's3'
+AWS_S3_FILE_OVERWRITE = False

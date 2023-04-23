@@ -1,7 +1,8 @@
 from django import forms
-from .models import User,OtpCode
-from django.core.exceptions import ValidationError
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
+from django.core.exceptions import ValidationError
+
+from .models import User, OtpCode
 
 
 class UserCreationForm(forms.ModelForm):
@@ -64,6 +65,5 @@ class VerifyCodeForm(forms.Form):
 
 
 class UserLoginForm(forms.Form):
-    phone=forms.CharField()
-    password=forms.CharField(widget=forms.PasswordInput)
-
+    phone = forms.CharField()
+    password = forms.CharField(widget=forms.PasswordInput)

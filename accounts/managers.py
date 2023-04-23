@@ -5,7 +5,6 @@ class UserManager(BaseUserManager):
 
     def create_user(self, phone_number, email, full_name, password):
 
-
         if not phone_number:
             raise ValueError("user must have phone number ")
         if not email:
@@ -13,10 +12,8 @@ class UserManager(BaseUserManager):
         if not full_name:
             raise ValueError("user must have fullname field")
 
-
         user = self.model(phone_number=phone_number, email=self.normalize_email(email)
                           , full_name=full_name)
-
 
         user.set_password(password)
 

@@ -1,0 +1,10 @@
+[2023-04-25 16:54:36,028: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-04-25 16:54:36,534: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2023-04-25 16:54:36,537: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-25 16:54:36,542: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-04-25 16:54:37,558: INFO/MainProcess] mingle: all alone
+[2023-04-25 16:54:37,604: WARNING/MainProcess] /home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-04-25 16:54:37,604: INFO/MainProcess] celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT ready.

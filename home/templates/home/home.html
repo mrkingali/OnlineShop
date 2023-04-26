@@ -9,16 +9,29 @@
 
 
 
-{%  block content %}
-    {% for category in categories  %}
-        <a href="{{ category.get_absolute_url }}" class="btn btn-info" >{{ category.name }}</a>
+{% block content %}
+
+    {% for category in categories %}
+
+        <div class="btn-group">
+            <a  class="btn btn-info" href="{{ category.get_absolute_url }}">{{ category.name }}</a>
+            <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                <span class="visually-hidden"></span>
+            </button>
+            <ul class="dropdown-menu">
+                {% for sub in category.scategory.all %}
+                    <li><a class="dropdown-item" href="{{ sub.get_absolute_url }}">{{ sub.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
     {% endfor %}
 
 
 
     <br/><br/>
     {% for product in products %}
-        <div class="card" style="width:18rem ; display: inline-block" >
+        <div class="card" style="width:18rem ; display: inline-block">
             <img src="{{ product.image.url }}" alt="" class="card-iny-top" width="200">
             <div class="card_body">
                 <a href="{{ product.get_absolute_url }}" class="card-title">{{ product.name }}</a>

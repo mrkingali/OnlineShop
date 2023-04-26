@@ -6,7 +6,8 @@
     <p>{{ product.price }} Toman</p>
     <small>{{ product.created }}</small>
     <p>{{ product.description }}</p>
-    <form method="post" action="">
+
+    <form action="{% url 'orders:cart_add' product.id %}" method="post" >
         {% csrf_token %}
         {{ form }}
         <input value="add to cart" type="submit">

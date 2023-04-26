@@ -6,5 +6,10 @@
     <p>{{ product.price }} Toman</p>
     <small>{{ product.created }}</small>
     <p>{{ product.description }}</p>
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form }}
+        <input value="add to cart" type="submit">
+    </form>
 
 {% endblock %}

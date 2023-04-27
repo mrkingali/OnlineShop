@@ -141,3 +141,17 @@ AWS_STORAGE_BUCKET_NAME = 'django-online-shop-project'
 AWS_SERVICE_NAME = 's3'
 AWS_S3_FILE_OVERWRITE = False
 AWS_LOCAL_STORAGES = f'{BASE_DIR}/aws/'
+
+
+
+#gmail account
+'''
+EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_HOST_USER='alirezamardalishahi@gmail.com'
+EMAIL_PORT=587
+EMAIL_HOST_PASSWORD=''
+EMAIL_USE_TLS=True
+EMAIL_USE_SSL=False
+DEFAULT_FROM_EMAIL='from ONLINESHOP'
+'''

@@ -16,4 +16,5 @@ urlpatterns = [
     path('<slug:slug>', views.ProductDetailView.as_view(), name='product_detail'),
     path('bucket/', include(bucket_urls)),
 
+
 ]

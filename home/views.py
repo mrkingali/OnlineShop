@@ -8,14 +8,9 @@ from . import tasks
 from .models import Product, Category
 
 
-
-
 class HomeView(View):
 
-
-
     def get(self, request, category_slug=None):
-
         products = Product.objects.filter(available=True)
         categories = Category.objects.filter(is_sub=False)
         if category_slug:
@@ -36,8 +31,6 @@ class BucketHome(IsAdminUserMixin, View):
     template_name = 'home/bucket.html'
 
     def get(self, request):
-
-
         objects = tasks.all_bucket_object_task()
         return render(request, self.template_name, {'objects': objects})
 
@@ -55,4 +48,3 @@ class DownloadBucketObject(IsAdminUserMixin, View):
         tasks.download_bucket_object(key)
         messages.success(request, 'download will start soon', 'info')
         return redirect('home:bucket')
-

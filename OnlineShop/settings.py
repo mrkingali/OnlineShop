@@ -36,12 +36,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #local app
+    # local app
     'home.apps.HomeConfig',
     'accounts.apps.AccountsConfig',
     'orders.apps.OrdersConfig',
 
-    #third-party app
+    # third-party app
     'storages',
     'django_celery_beat',
 ]
@@ -142,9 +142,7 @@ AWS_SERVICE_NAME = 's3'
 AWS_S3_FILE_OVERWRITE = False
 AWS_LOCAL_STORAGES = f'{BASE_DIR}/aws/'
 
-
-
-#gmail account
+# gmail account
 '''
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'

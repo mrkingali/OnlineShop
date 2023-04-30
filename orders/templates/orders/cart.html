@@ -5,19 +5,19 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">name</th>
-                <th scope="col">size</th>
-                <th scope="col">download</th>
-                <th scope="col">delete</th>
+                <th scope="col">quantity</th>
+                <th scope="col">unit price</th>
+                <th scope="col">total price</th>
             </tr>
         </thead>
 
-        {% for object in objects %}
+        {% for item in cart %}
             <tr>
                 <th scope="row">{{ forloop.counter }}</th>
-                <td>{{ object.Key }}</td>
-                <td>{{ object.Size | filesizeformat }}</td>
-                <td><a href="{% url 'home:download_obj_bucket' object.Key %}">download</a></td>
-                <td><a href="{% url 'home:delete_obj_bucket' object.Key %}">delete</a></td>
+                <td>{{ item.product }}</td>
+                <td>{{ item.quantity}}</td>
+                <td>{{ item.price }}</td>
+                <td>{{ item.total_price }}</td>
             </tr>
         {% endfor %}
 

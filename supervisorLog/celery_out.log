@@ -112,3 +112,65 @@ Configuration ->
   . home.tasks.delete_object_bucket
   . home.tasks.download_bucket_object
 
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-04-29 04:25:15
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-04-29 11:58:29
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f0d6b26d720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-04-29 11:58:29
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-04-30 06:38:44
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7fb22cc6d720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+

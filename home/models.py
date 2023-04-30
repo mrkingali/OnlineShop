@@ -36,7 +36,7 @@ class Product(models.Model):
         ordering = ('name',)
 
     def __str__(self):
-        return f'name : {self.name} , price : {self.price} , available: {self.available}'
+        return f' {self.name} '
 
     def get_absolute_url(self):
         return reverse('home:product_detail', args=[self.slug, ])

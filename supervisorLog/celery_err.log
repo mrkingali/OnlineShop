@@ -2529,3 +2529,1159 @@ Trying again in 2.00 seconds... (1/100)
 [2023-04-30 06:42:44,664: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[79d6b397-6396-48f5-b95f-ca280349e861] succeeded in 0.0066595559999882425s: None
 [2023-04-30 06:44:44,654: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
 [2023-04-30 06:46:44,655: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+
+worker: Warm shutdown (MainProcess)
+[2023-05-01 07:48:50,983: INFO/MainProcess] beat: Starting...
+[2023-05-01 07:48:51,004: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-05-01 07:48:51,027: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 2.0 seconds...
+[2023-05-01 07:48:51,638: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds... (1/100)
+
+[2023-05-01 07:48:53,031: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 4.0 seconds...
+[2023-05-01 07:48:53,640: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds... (2/100)
+
+[2023-05-01 07:48:57,036: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 6.0 seconds...
+[2023-05-01 07:48:57,646: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds... (3/100)
+
+[2023-05-01 07:49:03,045: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 8.0 seconds...
+[2023-05-01 07:49:03,655: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds... (4/100)
+
+[2023-05-01 07:49:11,056: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 10.0 seconds...
+[2023-05-01 07:49:11,665: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 10.00 seconds... (5/100)
+
+[2023-05-01 07:49:21,069: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 12.0 seconds...
+[2023-05-01 07:49:21,679: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 12.00 seconds... (6/100)
+
+[2023-05-01 07:49:33,083: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 14.0 seconds...
+[2023-05-01 07:49:33,695: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 14.00 seconds... (7/100)
+
+[2023-05-01 07:49:47,101: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 16.0 seconds...
+[2023-05-01 07:49:47,713: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 16.00 seconds... (8/100)
+
+[2023-05-01 07:50:03,121: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 18.0 seconds...
+[2023-05-01 07:50:03,733: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 18.00 seconds... (9/100)
+
+[2023-05-01 07:50:21,143: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 20.0 seconds...
+[2023-05-01 07:50:21,755: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 20.00 seconds... (10/100)
+
+[2023-05-01 07:50:41,167: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 22.0 seconds...
+[2023-05-01 07:50:41,780: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 22.00 seconds... (11/100)
+
+[2023-05-01 07:51:03,194: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 24.0 seconds...
+[2023-05-01 07:51:03,807: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 24.00 seconds... (12/100)
+
+[2023-05-01 07:51:27,224: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 26.0 seconds...
+[2023-05-01 07:51:27,836: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 26.00 seconds... (13/100)
+
+[2023-05-01 07:51:53,257: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 28.0 seconds...
+[2023-05-01 07:51:53,868: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 28.00 seconds... (14/100)
+
+[2023-05-01 07:52:21,290: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 30.0 seconds...
+[2023-05-01 07:52:21,902: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 30.00 seconds... (15/100)
+
+[2023-05-01 07:52:51,327: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 07:52:51,938: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+
+worker: Warm shutdown (MainProcess)
+[2023-05-01 07:53:31,050: INFO/MainProcess] beat: Starting...
+[2023-05-01 07:53:31,085: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 2.0 seconds...
+[2023-05-01 07:53:31,089: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-05-01 07:53:31,744: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds... (1/100)
+
+[2023-05-01 07:53:33,088: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 4.0 seconds...
+[2023-05-01 07:53:33,748: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds... (2/100)
+
+[2023-05-01 07:53:37,094: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 6.0 seconds...
+[2023-05-01 07:53:37,754: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds... (3/100)
+
+[2023-05-01 07:53:43,101: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 8.0 seconds...
+[2023-05-01 07:53:43,762: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds... (4/100)
+
+[2023-05-01 07:53:51,112: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 10.0 seconds...
+[2023-05-01 07:53:51,772: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 10.00 seconds... (5/100)
+
+[2023-05-01 07:54:00,669: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 12.0 seconds...
+[2023-05-01 07:54:01,329: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 12.00 seconds... (6/100)
+
+[2023-05-01 07:54:12,684: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 14.0 seconds...
+[2023-05-01 07:54:13,344: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 14.00 seconds... (7/100)
+
+[2023-05-01 07:54:26,701: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 16.0 seconds...
+[2023-05-01 07:54:27,362: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 16.00 seconds... (8/100)
+
+[2023-05-01 07:54:42,720: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 18.0 seconds...
+[2023-05-01 07:54:43,381: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 18.00 seconds... (9/100)
+
+[2023-05-01 07:55:00,743: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 20.0 seconds...
+[2023-05-01 07:55:01,404: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 20.00 seconds... (10/100)
+
+[2023-05-01 07:55:20,768: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 22.0 seconds...
+[2023-05-01 07:55:21,429: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 22.00 seconds... (11/100)
+
+
+worker: Warm shutdown (MainProcess)
+[2023-05-01 08:04:43,279: INFO/MainProcess] beat: Starting...
+[2023-05-01 08:04:43,282: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-05-01 08:04:43,327: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 2.0 seconds...
+[2023-05-01 08:04:44,080: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds... (1/100)
+
+[2023-05-01 08:04:45,330: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 4.0 seconds...
+[2023-05-01 08:04:46,083: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds... (2/100)
+
+[2023-05-01 08:04:49,341: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:04:49,378: INFO/MainProcess] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)
+[2023-05-01 08:04:50,091: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2023-05-01 08:04:50,096: INFO/MainProcess] mingle: searching for neighbors
+[2023-05-01 08:04:50,107: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-05-01 08:04:51,118: INFO/MainProcess] mingle: all alone
+[2023-05-01 08:04:51,139: WARNING/MainProcess] /home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-05-01 08:04:51,139: INFO/MainProcess] celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT ready.
+[2023-05-01 08:04:51,140: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[c89730d1-21f7-435b-850f-6c423a6cdb54] received
+[2023-05-01 08:04:51,141: INFO/MainProcess] Task celery.backend_cleanup[f9dbae0c-a13c-4c9c-b832-85f0ca706428] received
+[2023-05-01 08:04:51,245: WARNING/ForkPoolWorker-1] No hostname was supplied. Reverting to default 'localhost'
+[2023-05-01 08:04:51,250: INFO/ForkPoolWorker-1] Task celery.backend_cleanup[f9dbae0c-a13c-4c9c-b832-85f0ca706428] succeeded in 0.00717713100000239s: None
+[2023-05-01 08:04:51,254: WARNING/ForkPoolWorker-8] No hostname was supplied. Reverting to default 'localhost'
+[2023-05-01 08:04:51,260: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[c89730d1-21f7-435b-850f-6c423a6cdb54] succeeded in 0.01667149600000073s: None
+[2023-05-01 08:06:43,327: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:06:43,328: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[7c746e92-6c67-4bae-b993-c5951862cc5b] received
+[2023-05-01 08:06:43,330: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[7c746e92-6c67-4bae-b993-c5951862cc5b] succeeded in 0.0014227270000048975s: None
+[2023-05-01 08:08:43,327: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:08:43,329: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[19383bc0-0371-4606-ae25-795ab83d5634] received
+[2023-05-01 08:08:43,330: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[19383bc0-0371-4606-ae25-795ab83d5634] succeeded in 0.001231348000004573s: None
+[2023-05-01 08:10:43,328: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:10:43,330: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[68e1b168-4b3e-488f-8036-177ab4a41708] received
+[2023-05-01 08:10:43,332: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[68e1b168-4b3e-488f-8036-177ab4a41708] succeeded in 0.0013038139999821396s: None
+[2023-05-01 08:12:43,329: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:12:43,331: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[80f201c3-b42e-408f-ad10-31938d5d7d80] received
+[2023-05-01 08:12:43,332: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[80f201c3-b42e-408f-ad10-31938d5d7d80] succeeded in 0.0011803319999899031s: None
+[2023-05-01 08:14:43,330: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:14:43,332: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[c97e5854-59e1-4fc4-b89b-2ccfa97411e4] received
+[2023-05-01 08:14:43,334: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[c97e5854-59e1-4fc4-b89b-2ccfa97411e4] succeeded in 0.0013017810000519603s: None
+[2023-05-01 08:16:43,331: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:16:43,333: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[fd2a926c-e13b-416d-a072-0820ff458d64] received
+[2023-05-01 08:16:43,334: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[fd2a926c-e13b-416d-a072-0820ff458d64] succeeded in 0.001215967999996792s: None
+[2023-05-01 08:18:43,332: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:18:43,334: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[8819776a-7bed-475e-bec9-59ff94d288c9] received
+[2023-05-01 08:18:43,335: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[8819776a-7bed-475e-bec9-59ff94d288c9] succeeded in 0.0012290399999983492s: None
+[2023-05-01 08:20:43,333: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:20:43,335: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[d26baa35-8148-4b9a-8b3f-604f6d56f93c] received
+[2023-05-01 08:20:43,337: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[d26baa35-8148-4b9a-8b3f-604f6d56f93c] succeeded in 0.0011801619999687318s: None
+[2023-05-01 08:22:43,333: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:22:43,335: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[7f6505d4-1d83-47da-b4e3-729709572339] received
+[2023-05-01 08:22:43,338: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[7f6505d4-1d83-47da-b4e3-729709572339] succeeded in 0.0019070519999786484s: None
+[2023-05-01 08:24:43,334: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:24:43,336: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[93b33aa5-7bf6-4538-974a-62509a836575] received
+[2023-05-01 08:24:43,337: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[93b33aa5-7bf6-4538-974a-62509a836575] succeeded in 0.001313213999992513s: None
+[2023-05-01 08:26:43,335: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:26:43,337: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[00171a3c-2496-4411-af93-34e741131bd2] received
+[2023-05-01 08:26:43,339: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[00171a3c-2496-4411-af93-34e741131bd2] succeeded in 0.001210116999800448s: None
+[2023-05-01 08:28:43,337: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:28:43,338: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[8039a63b-ceef-4230-a67c-cca43255788a] received
+[2023-05-01 08:28:43,340: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[8039a63b-ceef-4230-a67c-cca43255788a] succeeded in 0.0012001670002064202s: None
+[2023-05-01 08:30:43,338: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:30:43,339: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[9ca0f8f8-903d-4c0e-979b-0749fc1426e8] received
+[2023-05-01 08:30:43,341: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[9ca0f8f8-903d-4c0e-979b-0749fc1426e8] succeeded in 0.0012013880000267818s: None
+[2023-05-01 08:32:43,339: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:32:43,340: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[06c54cad-67d7-44ed-a61e-acf58d80daf7] received
+[2023-05-01 08:32:43,342: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[06c54cad-67d7-44ed-a61e-acf58d80daf7] succeeded in 0.0013548060001085105s: None
+[2023-05-01 08:34:43,342: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:34:43,347: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[b1c51da8-a4ec-49e9-93cd-4d8c04eb28d2] received
+[2023-05-01 08:34:43,353: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[b1c51da8-a4ec-49e9-93cd-4d8c04eb28d2] succeeded in 0.004587709999896106s: None
+[2023-05-01 08:36:43,345: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:36:43,350: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[8b88cd22-67a3-4233-bdce-4f48450819ce] received
+[2023-05-01 08:36:43,357: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[8b88cd22-67a3-4233-bdce-4f48450819ce] succeeded in 0.0050784800000656105s: None
+[2023-05-01 08:38:43,348: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:38:43,354: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[c5c6eaa7-67c5-493c-9571-70ddb376e59e] received
+[2023-05-01 08:38:43,360: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[c5c6eaa7-67c5-493c-9571-70ddb376e59e] succeeded in 0.005308374999913212s: None
+[2023-05-01 08:40:43,352: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:40:43,357: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[b310c410-e0d4-40f8-9e52-49ce56084207] received
+[2023-05-01 08:40:43,364: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[b310c410-e0d4-40f8-9e52-49ce56084207] succeeded in 0.0052044250001017645s: None
+[2023-05-01 08:42:43,355: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 08:42:43,360: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[90c84957-2b79-4b1f-be45-c894cf19f9d0] received
+[2023-05-01 08:42:43,366: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[90c84957-2b79-4b1f-be45-c894cf19f9d0] succeeded in 0.004561515000204963s: None
+[2023-05-01 09:55:45,050: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 09:55:45,066: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[2a04982f-f338-4c81-9865-06434266c796] received
+[2023-05-01 09:55:45,077: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[2a04982f-f338-4c81-9865-06434266c796] succeeded in 0.008491611999943416s: None
+[2023-05-01 09:57:45,051: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 09:57:45,052: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[59fa9375-7f0e-45d3-aef2-2a3404111347] received
+[2023-05-01 09:57:45,053: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[59fa9375-7f0e-45d3-aef2-2a3404111347] succeeded in 0.001130707999891456s: None
+[2023-05-01 09:59:45,051: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 09:59:45,052: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[5f967315-88de-4257-a00d-9d55966b3f56] received
+[2023-05-01 09:59:45,054: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[5f967315-88de-4257-a00d-9d55966b3f56] succeeded in 0.001069579999693815s: None
+[2023-05-01 10:01:45,054: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:01:45,060: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[0b205168-e77f-45e1-8319-1469648e6c3d] received
+[2023-05-01 10:01:45,069: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[0b205168-e77f-45e1-8319-1469648e6c3d] succeeded in 0.006970700000238139s: None
+[2023-05-01 10:03:45,055: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:03:45,057: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[43692af1-b0e9-4843-b160-11f7ffda56a8] received
+[2023-05-01 10:03:45,058: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[43692af1-b0e9-4843-b160-11f7ffda56a8] succeeded in 0.0011223029996472178s: None
+[2023-05-01 10:05:45,055: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:05:45,056: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[b1c20848-8d8e-48b9-be25-90e0bc2b637f] received
+[2023-05-01 10:05:45,065: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[b1c20848-8d8e-48b9-be25-90e0bc2b637f] succeeded in 0.008357441000043764s: None
+[2023-05-01 10:07:45,056: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:07:45,057: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[5341e081-37f4-461e-94f5-a4dada9f2bbc] received
+[2023-05-01 10:07:45,059: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[5341e081-37f4-461e-94f5-a4dada9f2bbc] succeeded in 0.0010763020000013057s: None
+[2023-05-01 10:09:45,057: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:09:45,058: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[0ba0d394-8556-4da7-83df-144f471576c0] received
+[2023-05-01 10:09:45,064: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[0ba0d394-8556-4da7-83df-144f471576c0] succeeded in 0.005127404999711871s: None
+[2023-05-01 10:11:45,057: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:11:45,059: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[65f74f7f-e0ec-413a-b2d3-6befb2d8cacf] received
+[2023-05-01 10:11:45,060: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[65f74f7f-e0ec-413a-b2d3-6befb2d8cacf] succeeded in 0.0011169929998686712s: None
+[2023-05-01 10:13:45,059: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:13:45,065: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[decde493-5ec2-4f1b-a527-9051859ba809] received
+[2023-05-01 10:13:45,071: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[decde493-5ec2-4f1b-a527-9051859ba809] succeeded in 0.004650820999813732s: None
+[2023-05-01 10:15:45,060: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:15:45,066: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[1da91d4d-e83d-4832-9c73-7bc8a72ffa30] received
+[2023-05-01 10:15:45,073: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[1da91d4d-e83d-4832-9c73-7bc8a72ffa30] succeeded in 0.004437311000401678s: None
+[2023-05-01 10:17:45,061: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:17:45,063: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[0373a521-48c8-4767-a7ba-341083672b22] received
+[2023-05-01 10:17:45,064: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[0373a521-48c8-4767-a7ba-341083672b22] succeeded in 0.0010887310004363826s: None
+[2023-05-01 10:19:45,062: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:19:45,063: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[5c120587-55fa-4c42-972a-d398d366da9f] received
+[2023-05-01 10:19:45,065: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[5c120587-55fa-4c42-972a-d398d366da9f] succeeded in 0.0011710300000231655s: None
+[2023-05-01 10:21:45,062: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:21:45,064: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[4dabd1b9-1822-4086-b8b9-e92dddeb7359] received
+[2023-05-01 10:21:45,065: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[4dabd1b9-1822-4086-b8b9-e92dddeb7359] succeeded in 0.0010689079999792739s: None
+[2023-05-01 10:23:45,063: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:23:45,069: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[7a78129a-2c58-4362-be1f-92300a3c4d62] received
+[2023-05-01 10:23:45,074: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[7a78129a-2c58-4362-be1f-92300a3c4d62] succeeded in 0.003687039999931585s: None
+[2023-05-01 10:25:45,064: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 10:25:45,065: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[3ac2c93e-d420-4456-a1e7-38038170d3b7] received
+[2023-05-01 10:25:45,067: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[3ac2c93e-d420-4456-a1e7-38038170d3b7] succeeded in 0.0011575530006666668s: None
+[2023-05-01 11:30:06,581: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 11:30:06,586: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[7ec252e4-8101-4483-9129-8f624761357c] received
+[2023-05-01 11:30:06,593: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[7ec252e4-8101-4483-9129-8f624761357c] succeeded in 0.004661902999941958s: None
+[2023-05-01 11:32:06,581: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 11:32:06,582: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[b7e949ad-4834-478e-84ec-b0ac771cdd7c] received
+[2023-05-01 11:32:06,584: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[b7e949ad-4834-478e-84ec-b0ac771cdd7c] succeeded in 0.0011319020004521008s: None
+[2023-05-01 11:34:06,585: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 11:34:06,590: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[100ec76b-9564-45b3-8838-90be694ddb06] received
+[2023-05-01 11:34:06,597: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[100ec76b-9564-45b3-8838-90be694ddb06] succeeded in 0.00471936000030837s: None
+[2023-05-01 11:36:06,586: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 11:36:06,588: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[3ec1e997-0a64-47ee-bc40-91c3f2ee56ab] received
+[2023-05-01 11:36:06,589: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[3ec1e997-0a64-47ee-bc40-91c3f2ee56ab] succeeded in 0.0011220299993510707s: None
+[2023-05-01 11:38:06,586: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 11:38:06,588: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[ebd9ccbe-a43c-4546-97e0-c6d408726bc7] received
+[2023-05-01 11:38:06,589: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[ebd9ccbe-a43c-4546-97e0-c6d408726bc7] succeeded in 0.0011074800004280405s: None
+[2023-05-01 11:40:06,588: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 11:40:06,590: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[00d6036a-c392-4982-8008-b3853a5a76c9] received
+[2023-05-01 11:40:06,591: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[00d6036a-c392-4982-8008-b3853a5a76c9] succeeded in 0.001115619999836781s: None
+[2023-05-01 11:42:06,589: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 11:42:06,591: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[26b6249a-97a7-4508-bef9-4f18a4a9c0ba] received
+[2023-05-01 11:42:06,592: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[26b6249a-97a7-4508-bef9-4f18a4a9c0ba] succeeded in 0.0010698659998524818s: None
+[2023-05-01 11:44:06,590: INFO/MainProcess] Scheduler: Sending due task remove expired otp (accounts.tasks.remove_expired_otp_codes)
+[2023-05-01 11:44:06,592: INFO/MainProcess] Task accounts.tasks.remove_expired_otp_codes[73c1d37a-9240-46d7-bc31-e2673216914c] received
+[2023-05-01 11:44:06,594: INFO/ForkPoolWorker-8] Task accounts.tasks.remove_expired_otp_codes[73c1d37a-9240-46d7-bc31-e2673216914c] succeeded in 0.0010734719999163644s: None
+
+worker: Warm shutdown (MainProcess)
+[2023-05-01 11:45:50,958: INFO/MainProcess] beat: Starting...
+[2023-05-01 11:45:50,979: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+
+worker: Warm shutdown (MainProcess)
+[2023-05-01 13:38:45,064: INFO/MainProcess] beat: Starting...
+[2023-05-01 13:38:45,086: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-05-01 13:38:45,105: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 2.0 seconds...
+[2023-05-01 13:38:45,713: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds... (1/100)
+
+[2023-05-01 13:38:47,108: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 4.0 seconds...
+[2023-05-01 13:38:47,716: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds... (2/100)
+
+[2023-05-01 13:38:51,114: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 6.0 seconds...
+[2023-05-01 13:38:51,722: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds... (3/100)
+
+[2023-05-01 13:38:57,121: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 8.0 seconds...
+[2023-05-01 13:38:57,728: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds... (4/100)
+
+[2023-05-01 13:39:05,130: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 10.0 seconds...
+[2023-05-01 13:39:05,738: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 10.00 seconds... (5/100)
+
+[2023-05-01 13:39:15,144: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 12.0 seconds...
+[2023-05-01 13:39:15,751: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 12.00 seconds... (6/100)
+
+[2023-05-01 13:39:28,206: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 14.0 seconds...
+[2023-05-01 13:39:28,814: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 14.00 seconds... (7/100)
+
+[2023-05-01 13:39:42,223: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 16.0 seconds...
+[2023-05-01 13:39:42,833: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 16.00 seconds... (8/100)
+
+[2023-05-01 13:39:58,244: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 18.0 seconds...
+[2023-05-01 13:39:58,854: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 18.00 seconds... (9/100)
+
+[2023-05-01 13:40:10,835: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 20.0 seconds...
+[2023-05-01 13:40:11,448: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 20.00 seconds... (10/100)
+
+[2023-05-01 13:40:36,294: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 22.0 seconds...
+[2023-05-01 13:40:36,908: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 22.00 seconds... (11/100)
+
+[2023-05-01 13:40:58,323: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 24.0 seconds...
+[2023-05-01 13:40:58,939: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 24.00 seconds... (12/100)
+
+[2023-05-01 13:41:22,355: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 26.0 seconds...
+[2023-05-01 13:41:22,974: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 26.00 seconds... (13/100)
+
+[2023-05-01 13:41:48,386: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 28.0 seconds...
+[2023-05-01 13:41:49,005: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 28.00 seconds... (14/100)
+
+[2023-05-01 13:42:16,421: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 30.0 seconds...
+[2023-05-01 13:42:17,041: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 30.00 seconds... (15/100)
+
+[2023-05-01 13:42:46,462: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:42:47,082: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:43:18,501: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:43:19,125: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:43:50,537: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:43:51,159: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:44:22,577: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:44:23,199: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:44:54,613: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:44:55,231: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:45:26,647: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:45:27,267: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:45:58,680: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:45:59,299: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:46:30,715: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:46:31,335: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:47:02,749: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:47:03,373: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:47:34,790: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:47:35,412: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:48:06,827: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:48:07,454: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:48:38,865: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:48:39,487: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:49:10,902: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:49:11,523: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:49:42,935: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:49:43,558: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:50:14,972: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:50:15,592: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:50:47,009: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:50:47,625: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:51:19,046: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:51:19,663: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:51:51,078: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:51:51,699: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:52:23,113: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:52:23,734: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:52:55,150: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:52:55,771: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:53:27,183: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:53:27,805: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:53:59,218: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:53:59,838: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:54:31,253: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:54:31,873: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:55:03,287: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:55:03,910: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:55:35,319: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:55:35,946: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:56:07,351: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:56:07,982: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:56:39,383: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:56:40,016: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:57:11,419: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:57:12,054: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:57:43,455: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:57:44,090: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:58:15,492: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:58:16,121: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:58:47,529: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:58:48,159: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:59:19,566: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:59:20,195: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 13:59:51,602: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 13:59:52,232: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:00:23,638: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:00:24,268: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:00:55,675: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:00:56,302: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:01:27,708: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:01:28,337: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:01:59,741: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:02:00,372: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:02:31,772: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:02:32,404: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:03:03,807: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:03:04,439: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:03:35,842: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:03:36,475: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:04:07,880: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:04:08,508: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:04:39,915: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:04:40,543: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:05:11,948: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:05:12,577: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:05:43,984: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:05:44,611: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:06:16,021: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:06:16,643: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:06:48,054: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:06:48,674: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:07:20,090: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:07:20,711: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:07:52,125: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:07:52,743: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:08:24,161: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:08:24,777: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:08:56,192: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:08:56,811: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:09:28,221: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:09:28,845: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:10:00,255: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:10:00,879: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:10:32,287: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:10:32,913: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:11:04,319: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:11:04,946: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:11:36,352: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:11:36,980: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:12:08,386: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:12:09,012: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:12:40,420: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:12:41,046: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:13:12,455: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:13:13,081: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:13:44,490: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:13:45,115: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:14:16,526: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:14:17,151: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:14:48,563: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:14:49,186: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:15:20,595: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:15:21,222: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:15:52,630: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:15:53,259: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:16:24,663: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:16:25,294: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:16:56,696: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:16:57,327: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:17:28,726: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:17:29,363: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:18:00,758: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:18:01,395: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:18:32,791: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:18:33,427: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:19:04,827: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:19:05,459: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:19:36,859: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:19:37,489: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:20:08,892: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:20:09,523: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:20:40,929: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:20:41,556: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:21:12,963: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:21:13,590: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:21:44,995: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:21:45,623: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:22:17,031: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:22:17,655: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:22:49,065: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:22:49,685: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:23:21,099: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:23:21,720: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:23:53,131: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:23:53,754: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:24:25,163: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:24:25,788: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:24:57,196: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:24:57,819: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:25:29,230: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:25:29,853: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:26:01,265: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:26:01,887: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:26:33,295: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:26:33,920: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:27:05,331: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:27:05,958: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:27:37,364: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:27:37,991: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:28:09,408: CRITICAL/MainProcess] beat raised exception <class 'kombu.exceptions.OperationalError'>: OperationalError('[Errno 111] Connection refused')
+Traceback (most recent call last):
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 446, in _reraise_as_library_errors
+    yield
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 433, in _ensure_connection
+    return retry_over_time(
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/utils/functional.py", line 312, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 877, in _connection_factory
+    self._connection = self._establish_connection()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 812, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/transport/pyamqp.py", line 201, in establish_connection
+    conn.connect()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/amqp/connection.py", line 323, in connect
+    self.transport.connect()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/amqp/transport.py", line 129, in connect
+    self._connect(self.host, self.port, self.connect_timeout)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/amqp/transport.py", line 184, in _connect
+    self.sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/apps/beat.py", line 105, in start_scheduler
+    service.start()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/beat.py", line 645, in start
+    interval = self.scheduler.tick()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/beat.py", line 357, in tick
+    self.apply_entry(entry, producer=self.producer)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/utils/objects.py", line 30, in __get__
+    return super().__get__(instance, owner)
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/beat.py", line 498, in producer
+    return self.Producer(self._ensure_connected(), auto_declare=False)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/beat.py", line 481, in _ensure_connected
+    return self.connection.ensure_connection(
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 381, in ensure_connection
+    self._ensure_connection(*args, **kwargs)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 432, in _ensure_connection
+    with ctx():
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 450, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: [Errno 111] Connection refused
+[2023-05-01 14:28:09,412: WARNING/MainProcess] Traceback (most recent call last):
+[2023-05-01 14:28:09,412: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 446, in _reraise_as_library_errors
+[2023-05-01 14:28:09,412: WARNING/MainProcess]     
+[2023-05-01 14:28:09,412: WARNING/MainProcess] yield
+[2023-05-01 14:28:09,412: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 433, in _ensure_connection
+[2023-05-01 14:28:09,412: WARNING/MainProcess]     
+[2023-05-01 14:28:09,412: WARNING/MainProcess] return retry_over_time(
+[2023-05-01 14:28:09,412: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/utils/functional.py", line 312, in retry_over_time
+[2023-05-01 14:28:09,412: WARNING/MainProcess]     
+[2023-05-01 14:28:09,412: WARNING/MainProcess] return fun(*args, **kwargs)
+[2023-05-01 14:28:09,412: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 877, in _connection_factory
+[2023-05-01 14:28:09,412: WARNING/MainProcess]     
+[2023-05-01 14:28:09,412: WARNING/MainProcess] self._connection = self._establish_connection()
+[2023-05-01 14:28:09,412: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 812, in _establish_connection
+[2023-05-01 14:28:09,413: WARNING/MainProcess]     
+[2023-05-01 14:28:09,413: WARNING/MainProcess] conn = self.transport.establish_connection()
+[2023-05-01 14:28:09,413: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/transport/pyamqp.py", line 201, in establish_connection
+[2023-05-01 14:28:09,413: WARNING/MainProcess]     
+[2023-05-01 14:28:09,413: WARNING/MainProcess] conn.connect()
+[2023-05-01 14:28:09,413: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/amqp/connection.py", line 323, in connect
+[2023-05-01 14:28:09,413: WARNING/MainProcess]     
+[2023-05-01 14:28:09,413: WARNING/MainProcess] self.transport.connect()
+[2023-05-01 14:28:09,413: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/amqp/transport.py", line 129, in connect
+[2023-05-01 14:28:09,413: WARNING/MainProcess]     
+[2023-05-01 14:28:09,413: WARNING/MainProcess] self._connect(self.host, self.port, self.connect_timeout)
+[2023-05-01 14:28:09,413: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/amqp/transport.py", line 184, in _connect
+[2023-05-01 14:28:09,413: WARNING/MainProcess]     
+[2023-05-01 14:28:09,413: WARNING/MainProcess] self.sock.connect(sa)
+[2023-05-01 14:28:09,413: WARNING/MainProcess] ConnectionRefusedError
+[2023-05-01 14:28:09,413: WARNING/MainProcess] : 
+[2023-05-01 14:28:09,413: WARNING/MainProcess] [Errno 111] Connection refused
+[2023-05-01 14:28:09,413: WARNING/MainProcess] 
+The above exception was the direct cause of the following exception:
+[2023-05-01 14:28:09,413: WARNING/MainProcess] Traceback (most recent call last):
+[2023-05-01 14:28:09,413: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/bin/celery", line 8, in <module>
+[2023-05-01 14:28:09,413: WARNING/MainProcess]     
+[2023-05-01 14:28:09,413: WARNING/MainProcess] sys.exit(main())
+[2023-05-01 14:28:09,413: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/__main__.py", line 15, in main
+[2023-05-01 14:28:09,414: WARNING/MainProcess]     
+[2023-05-01 14:28:09,414: WARNING/MainProcess] sys.exit(_main())
+[2023-05-01 14:28:09,414: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/bin/celery.py", line 217, in main
+[2023-05-01 14:28:09,414: WARNING/MainProcess]     
+[2023-05-01 14:28:09,414: WARNING/MainProcess] return celery(auto_envvar_prefix="CELERY")
+[2023-05-01 14:28:09,414: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+[2023-05-01 14:28:09,414: WARNING/MainProcess]     
+[2023-05-01 14:28:09,414: WARNING/MainProcess] return self.main(*args, **kwargs)
+[2023-05-01 14:28:09,414: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/click/core.py", line 1055, in main
+[2023-05-01 14:28:09,415: WARNING/MainProcess]     
+[2023-05-01 14:28:09,415: WARNING/MainProcess] rv = self.invoke(ctx)
+[2023-05-01 14:28:09,415: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+[2023-05-01 14:28:09,415: WARNING/MainProcess]     
+[2023-05-01 14:28:09,415: WARNING/MainProcess] return _process_result(sub_ctx.command.invoke(sub_ctx))
+[2023-05-01 14:28:09,415: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+[2023-05-01 14:28:09,415: WARNING/MainProcess]     
+[2023-05-01 14:28:09,415: WARNING/MainProcess] return ctx.invoke(self.callback, **ctx.params)
+[2023-05-01 14:28:09,415: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+[2023-05-01 14:28:09,415: WARNING/MainProcess]     
+[2023-05-01 14:28:09,415: WARNING/MainProcess] return __callback(*args, **kwargs)
+[2023-05-01 14:28:09,415: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/click/decorators.py", line 26, in new_func
+[2023-05-01 14:28:09,416: WARNING/MainProcess]     
+[2023-05-01 14:28:09,416: WARNING/MainProcess] return f(get_current_context(), *args, **kwargs)
+[2023-05-01 14:28:09,416: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/bin/base.py", line 134, in caller
+[2023-05-01 14:28:09,416: WARNING/MainProcess]     
+[2023-05-01 14:28:09,416: WARNING/MainProcess] return f(ctx, *args, **kwargs)
+[2023-05-01 14:28:09,416: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/bin/beat.py", line 72, in beat
+[2023-05-01 14:28:09,416: WARNING/MainProcess]     
+[2023-05-01 14:28:09,416: WARNING/MainProcess] return beat().run()
+[2023-05-01 14:28:09,416: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/apps/beat.py", line 77, in run
+[2023-05-01 14:28:09,416: WARNING/MainProcess]     
+[2023-05-01 14:28:09,416: WARNING/MainProcess] self.start_scheduler()
+[2023-05-01 14:28:09,416: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/apps/beat.py", line 105, in start_scheduler
+[2023-05-01 14:28:09,416: WARNING/MainProcess]     
+[2023-05-01 14:28:09,416: WARNING/MainProcess] service.start()
+[2023-05-01 14:28:09,416: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/beat.py", line 645, in start
+[2023-05-01 14:28:09,417: WARNING/MainProcess]     
+[2023-05-01 14:28:09,417: WARNING/MainProcess] interval = self.scheduler.tick()
+[2023-05-01 14:28:09,417: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/beat.py", line 357, in tick
+[2023-05-01 14:28:09,417: WARNING/MainProcess]     
+[2023-05-01 14:28:09,417: WARNING/MainProcess] self.apply_entry(entry, producer=self.producer)
+[2023-05-01 14:28:09,417: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/utils/objects.py", line 30, in __get__
+[2023-05-01 14:28:09,417: WARNING/MainProcess]     
+[2023-05-01 14:28:09,417: WARNING/MainProcess] return super().__get__(instance, owner)
+[2023-05-01 14:28:09,417: WARNING/MainProcess]   File "/usr/lib/python3.10/functools.py", line 981, in __get__
+[2023-05-01 14:28:09,417: WARNING/MainProcess]     
+[2023-05-01 14:28:09,417: WARNING/MainProcess] val = self.func(instance)
+[2023-05-01 14:28:09,417: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/beat.py", line 498, in producer
+[2023-05-01 14:28:09,417: WARNING/MainProcess]     
+[2023-05-01 14:28:09,417: WARNING/MainProcess] return self.Producer(self._ensure_connected(), auto_declare=False)
+[2023-05-01 14:28:09,417: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/beat.py", line 481, in _ensure_connected
+[2023-05-01 14:28:09,417: WARNING/MainProcess]     
+[2023-05-01 14:28:09,417: WARNING/MainProcess] return self.connection.ensure_connection(
+[2023-05-01 14:28:09,417: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 381, in ensure_connection
+[2023-05-01 14:28:09,418: WARNING/MainProcess]     
+[2023-05-01 14:28:09,418: WARNING/MainProcess] self._ensure_connection(*args, **kwargs)
+[2023-05-01 14:28:09,418: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 432, in _ensure_connection
+[2023-05-01 14:28:09,418: WARNING/MainProcess]     
+[2023-05-01 14:28:09,418: WARNING/MainProcess] with ctx():
+[2023-05-01 14:28:09,418: WARNING/MainProcess]   File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+[2023-05-01 14:28:09,418: WARNING/MainProcess]     
+[2023-05-01 14:28:09,418: WARNING/MainProcess] self.gen.throw(typ, value, traceback)
+[2023-05-01 14:28:09,418: WARNING/MainProcess]   File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 450, in _reraise_as_library_errors
+[2023-05-01 14:28:09,418: WARNING/MainProcess]     
+[2023-05-01 14:28:09,418: WARNING/MainProcess] raise ConnectionError(str(exc)) from exc
+[2023-05-01 14:28:09,418: WARNING/MainProcess] kombu.exceptions
+[2023-05-01 14:28:09,418: WARNING/MainProcess] .
+[2023-05-01 14:28:09,418: WARNING/MainProcess] OperationalError
+[2023-05-01 14:28:09,418: WARNING/MainProcess] : 
+[2023-05-01 14:28:09,418: WARNING/MainProcess] [Errno 111] Connection refused
+[2023-05-01 14:28:10,026: CRITICAL/MainProcess] Unrecoverable error: OperationalError('[Errno 111] Connection refused')
+Traceback (most recent call last):
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 446, in _reraise_as_library_errors
+    yield
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 433, in _ensure_connection
+    return retry_over_time(
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/utils/functional.py", line 312, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 877, in _connection_factory
+    self._connection = self._establish_connection()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 812, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/transport/pyamqp.py", line 201, in establish_connection
+    conn.connect()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/amqp/connection.py", line 323, in connect
+    self.transport.connect()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/amqp/transport.py", line 129, in connect
+    self._connect(self.host, self.port, self.connect_timeout)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/amqp/transport.py", line 184, in _connect
+    self.sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/worker/worker.py", line 203, in start
+    self.blueprint.start(self)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/bootsteps.py", line 365, in start
+    return self.obj.start()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 332, in start
+    blueprint.start(self)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/worker/consumer/connection.py", line 21, in start
+    c.connection = c.connect()
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 428, in connect
+    conn = self.connection_for_read(heartbeat=self.amqheartbeat)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 434, in connection_for_read
+    return self.ensure_connected(
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 460, in ensure_connected
+    conn = conn.ensure_connection(
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 381, in ensure_connection
+    self._ensure_connection(*args, **kwargs)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 432, in _ensure_connection
+    with ctx():
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/kingaliubunto/PycharmProjects/OnlineShop/venv/lib/python3.10/site-packages/kombu/connection.py", line 450, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: [Errno 111] Connection refused
+[2023-05-01 14:28:10,544: INFO/MainProcess] beat: Starting...
+[2023-05-01 14:28:10,571: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 2.0 seconds...
+[2023-05-01 14:28:12,574: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 4.0 seconds...
+[2023-05-01 14:28:13,164: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-05-01 14:28:13,658: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds... (1/100)
+
+[2023-05-01 14:28:15,662: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds... (2/100)
+
+[2023-05-01 14:28:16,579: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 6.0 seconds...
+[2023-05-01 14:28:19,667: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds... (3/100)
+
+[2023-05-01 14:28:22,585: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 8.0 seconds...
+[2023-05-01 14:28:25,675: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds... (4/100)
+
+[2023-05-01 14:28:30,594: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 10.0 seconds...
+[2023-05-01 14:28:33,684: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 10.00 seconds... (5/100)
+
+[2023-05-01 14:28:40,604: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 12.0 seconds...
+[2023-05-01 14:28:43,693: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 12.00 seconds... (6/100)
+
+[2023-05-01 14:28:52,619: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 14.0 seconds...
+[2023-05-01 14:28:55,707: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 14.00 seconds... (7/100)
+
+[2023-05-01 14:29:06,633: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 16.0 seconds...
+[2023-05-01 14:29:09,722: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 16.00 seconds... (8/100)
+
+[2023-05-01 14:29:22,651: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 18.0 seconds...
+[2023-05-01 14:29:25,739: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 18.00 seconds... (9/100)
+
+[2023-05-01 14:29:40,671: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 20.0 seconds...
+[2023-05-01 14:29:43,759: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 20.00 seconds... (10/100)
+
+[2023-05-01 14:30:00,694: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 22.0 seconds...
+[2023-05-01 14:30:03,781: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 22.00 seconds... (11/100)
+
+[2023-05-01 14:30:22,717: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 24.0 seconds...
+[2023-05-01 14:30:25,802: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 24.00 seconds... (12/100)
+
+[2023-05-01 14:30:46,741: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 26.0 seconds...
+[2023-05-01 14:30:49,829: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 26.00 seconds... (13/100)
+
+[2023-05-01 14:31:12,766: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 28.0 seconds...
+[2023-05-01 14:31:15,855: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 28.00 seconds... (14/100)
+
+[2023-05-01 14:31:40,794: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 30.0 seconds...
+[2023-05-01 14:31:43,885: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 30.00 seconds... (15/100)
+
+[2023-05-01 14:32:10,825: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:32:13,918: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:32:42,858: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:32:45,951: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:33:14,891: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:33:17,984: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:33:46,923: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:33:50,019: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:34:18,955: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:34:22,050: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:34:50,988: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:34:54,085: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:35:23,020: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:35:26,117: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:35:55,051: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:35:58,151: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:36:27,082: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:36:30,182: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:36:59,116: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:37:02,216: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:37:31,148: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:37:34,250: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:38:03,184: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:38:06,283: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:38:35,218: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:38:38,319: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:39:07,251: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:39:10,351: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:39:39,286: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:39:42,386: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:40:11,320: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:40:14,422: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:40:43,355: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:40:46,453: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:41:15,391: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:41:18,486: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:41:47,427: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:41:50,522: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:42:19,464: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:42:22,559: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:42:51,499: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:42:54,598: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:43:23,533: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:43:26,629: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:43:55,570: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:43:58,666: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:44:27,608: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:44:30,703: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:44:59,646: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:45:02,740: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:45:31,683: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:45:34,778: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:46:03,719: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:46:06,814: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:46:35,752: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:46:38,846: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:47:07,788: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:47:10,881: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:47:39,819: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:47:42,914: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:48:11,855: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:48:14,952: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:48:43,891: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:48:46,987: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:49:15,924: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:49:19,023: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:49:47,957: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:49:51,060: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:50:19,992: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:50:23,091: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:50:52,028: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:50:55,127: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:51:24,059: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:51:27,156: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:51:56,093: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:51:59,191: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:52:28,127: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:52:31,227: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:53:00,162: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:53:03,262: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:53:32,195: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:53:35,295: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:54:04,226: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:54:07,330: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:54:36,261: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:54:39,366: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:55:08,294: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:55:11,398: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:55:40,329: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:55:43,431: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:56:12,367: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:56:15,464: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:56:44,403: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:56:47,498: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:57:16,435: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:57:19,534: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:57:48,471: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:57:51,568: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:58:20,510: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:58:23,607: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+
+[2023-05-01 14:58:52,547: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 32.0 seconds...
+[2023-05-01 14:58:55,642: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds... (16/100)
+

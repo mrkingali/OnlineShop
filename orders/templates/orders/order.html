@@ -2,4 +2,5 @@
 {% block content %}
     <h3>check out order</h3>
     <p> total : {{ order.get_total_price }}</p>
+    <a href="{% url 'orders:order_pay' order.id %}" class="btn btn-primary">pay</a>
 {% endblock %}

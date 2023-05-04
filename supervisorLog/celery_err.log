@@ -6731,3 +6731,39 @@ Trying again in 32.00 seconds... (16/100)
 [2023-05-03 17:55:52,038: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
 Trying again in 32.00 seconds... (16/100)
 
+
+worker: Warm shutdown (MainProcess)
+[2023-05-04 05:44:30,627: INFO/MainProcess] beat: Starting...
+[2023-05-04 05:44:30,640: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-05-04 05:44:30,654: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 2.0 seconds...
+[2023-05-04 05:44:31,082: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds... (1/100)
+
+[2023-05-04 05:44:32,658: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 4.0 seconds...
+[2023-05-04 05:44:33,085: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds... (2/100)
+
+[2023-05-04 05:44:36,662: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 6.0 seconds...
+[2023-05-04 05:44:37,091: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds... (3/100)
+
+[2023-05-04 05:44:42,669: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 8.0 seconds...
+[2023-05-04 05:44:43,099: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds... (4/100)
+
+[2023-05-04 05:44:50,677: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 10.0 seconds...
+[2023-05-04 05:44:51,108: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 10.00 seconds... (5/100)
+
+[2023-05-04 05:45:00,691: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 12.0 seconds...
+[2023-05-04 05:45:01,122: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 12.00 seconds... (6/100)
+
+[2023-05-04 05:45:12,701: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 14.0 seconds...
+[2023-05-04 05:45:13,135: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 14.00 seconds... (7/100)
+
+[2023-05-04 05:45:26,715: ERROR/MainProcess] beat: Connection error: [Errno 111] Connection refused. Trying again in 16.0 seconds...
+[2023-05-04 05:45:27,146: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 16.00 seconds... (8/100)
+

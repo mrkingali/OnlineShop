@@ -155,7 +155,6 @@ EMAIL_USE_SSL=False
 DEFAULT_FROM_EMAIL='from ONLINESHOP'
 '''
 
-
-#zarinpall
-MERCHANT=''
-SANDBOX=True
+# zarinpall
+MERCHANT = ''
+SANDBOX = True

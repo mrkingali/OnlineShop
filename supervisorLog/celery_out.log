@@ -577,3 +577,437 @@ Configuration ->
   . home.tasks.delete_object_bucket
   . home.tasks.download_bucket_object
 
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 05:44:30
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 06:45:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f6d96275720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 06:45:52
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 11:42:36
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f9cc7259720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 11:42:32
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 12:32:04
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7fb7cce75720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 12:31:57
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 13:21:32
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f475e369720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 13:21:23
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 14:10:59
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f59f2171720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 14:10:49
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 15:00:26
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f4649d5d720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 15:00:14
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 15:49:54
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7fbcc6761720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 15:49:40
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 16:39:21
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f2e7ae6d720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 16:39:05
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 17:28:49
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7fa7f706d720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 17:28:30
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 18:18:16
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7fa3f937d720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 18:17:56
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 19:07:44
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f35c8165720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 19:07:22
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-40-generic-x86_64-with-glibc2.35 2023-05-04 19:57:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f5e1f561720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 19:56:47
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-41-generic-x86_64-with-glibc2.35 2023-05-04 20:09:02
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f5243161720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2023-05-04 20:09:02
+Configuration ->
+    . broker -> amqp://guest:**@localhost:5672//
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 seconds (5s)
+ 
+ -------------- celery@kingaliubunto-VivoBook-ASUSLaptop-X571GT-K571GT v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.19.0-41-generic-x86_64-with-glibc2.35 2023-05-05 11:55:35
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         OnlineShop:0x7f2ddb661720
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     rpc://
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . accounts.tasks.remove_expired_otp_codes
+  . home.tasks.delete_object_bucket
+  . home.tasks.download_bucket_object
+

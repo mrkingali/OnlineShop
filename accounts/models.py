@@ -6,11 +6,8 @@ from .managers import UserManager
 
 class User(AbstractBaseUser):
     email = models.EmailField(unique=True, max_length=255)
-
     phone_number = models.CharField(unique=True, max_length=11)
-
     full_name = models.CharField(max_length=128)
-
     is_active = models.BooleanField(default=True)
 
     is_admin = models.BooleanField(default=False)
